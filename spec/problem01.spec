@@ -1,6 +1,6 @@
 require 'problem01'
 
-RSpec.describe Sum do
+RSpec.describe SumMultiples do
   let(:subject) do
     described_class.new
   end

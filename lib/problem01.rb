@@ -1,4 +1,4 @@
-class Sum
+class SumMultiples
 
   def multiples_three_or_five(int)
     n = int - 1
