@@ -4,4 +4,4 @@ class Factorial
     
     n * sum(n - 1)
   end
-end  
+end

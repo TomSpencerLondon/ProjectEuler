@@ -3,13 +3,13 @@ class FibonacciEvens
     return 0 if int == 0
     return 1 if int == 1
 
-    a, b = 1, 1
+    first, second = 1, 1
     total = 0
-    while a < int
-      if a % 2 == 0
-        total += a
+    while first < int
+      if first % 2 == 0
+        total += first
       end
-      a, b = b, a + b        
+      first, second = second, first + second     
     end
     total
   end
